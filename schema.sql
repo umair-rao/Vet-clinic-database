@@ -7,3 +7,6 @@ vet_clinic=# CREATE TABLE animals (
   escape_attempts INT,
   neutered BOOLEAN,
   weight_kg DECIMAL );
+
+vet_clinic=# ALTER TABLE animals
+ ADD COLUMN species CHAR(50);
