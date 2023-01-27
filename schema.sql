@@ -7,6 +7,8 @@ vet_clinic=# CREATE TABLE animals (
   escape_attempts INT,
   neutered BOOLEAN,
   weight_kg DECIMAL );
-
+  
+  /*Add a column species of type string to your animals table.*/
+  
 vet_clinic=# ALTER TABLE animals
  ADD COLUMN species CHAR(50);
