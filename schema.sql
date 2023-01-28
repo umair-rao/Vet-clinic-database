@@ -27,11 +27,14 @@ vet_clinic=# CREATE TABLE species (
  id BIGSERIAL NOT NULL PRIMARY KEY,
  name CHAR(20) NOT NULL);
  
-  /*Remove column species from animals table*/
+/*Remove column species from animals table*/
 
-  ALTER TABLE animals DROP COLUMN species;
+ALTER TABLE animals DROP COLUMN species;
   
-    /*Add column species_id which is a foreign key referencing species table*/
+/*Add column species_id which is a foreign key referencing species table*/
+    
+    
+    
 
   ALTER TABLE animals ADD COLUMN species_ID INT;
   ALTER TABLE animals ADD FOREIGN KEY (species_ID) REFERENCES species(id);  
@@ -40,3 +43,27 @@ vet_clinic=# CREATE TABLE species (
 
   ALTER TABLE animals ADD COLUMN owners_ID INT;
   ALTER TABLE animals ADD FOREIGN KEY (owners_ID) REFERENCES owners(id);
+  
+  
+  /*Create a table named vets*/
+  
+  vet_clinic=# CREATE TABLE vets (
+ id BIGSERIAL NOT NULL PRIMARY KEY,
+ name CHAR(50) NOT NULL,
+ age INT,
+ date_of_graduation DATE);
+ 
+ /*Create a "join table" called specializations*/
+ 
+ vet_clinic=# CREATE TABLE specializations (
+ vets_id INT REFERENCES vets(id) ,
+ species_id INT REFERENCES species(id),
+ PRIMARY KEY(species_id, vets_id));
+
+/*Create a "join table" called visits*/
+
+vet_clinic=# CREATE TABLE visits (
+ animals_id INT REFERENCES animals(id),
+ vets_id INT REFERENCES vets(id),
+ date_of_visits DATE,
+ PRIMARY KEY(animals_id, vets_id));

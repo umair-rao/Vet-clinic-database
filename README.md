@@ -3,8 +3,9 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack) 
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-) 
 - [💻 Getting Started](#getting-started)
   - [Install](#install)
 - [👥 Authors](#authors)
@@ -21,6 +22,13 @@
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **It is Vet Clinic database which has animals, vets, owners and vists data which can be used as required**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <details>
   <summary>Client</summary>
@@ -80,7 +88,7 @@ I would like to thank the Microverse team for their great support!
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
