@@ -52,13 +52,19 @@ Clone this repository to your desired folder:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
 👤 **Muhammad Umair Muqeem**
 
 - GitHub: [@umair-rao](https://github.com/umair-rao)
 - Twitter: [@umair_ra0](https://twitter.com/umair_ra0)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/engr-umair-muqeem/)
+
+👤 **Peter Chendi**
+
+- GitHub: [@anyepeter](https://github.com/anyepeter)
+- Twitter: [@apcode](https://twitter.com/apcode)
+- LinkedIn: [peterchendi](https://www.linkedin.com/in/peter-chendi/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
