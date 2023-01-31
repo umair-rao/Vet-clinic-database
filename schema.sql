@@ -67,3 +67,7 @@ vet_clinic=# CREATE TABLE visits (
  vets_id INT REFERENCES vets(id),
  date_of_visits DATE,
  PRIMARY KEY(animals_id, vets_id));
+ 
+/*Add an email column to your owners table*/
+
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
