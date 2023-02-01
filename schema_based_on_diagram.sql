@@ -17,4 +17,9 @@ CREATE TABLE medical_histories (
 --create the index for the patient_id in ascending order to reduce query execution time
 CREATE INDEX patients_id_asc ON medical_histories (patient_id ASC);
 
-
+--Create the treatments table
+CREATE TABLE treatments (
+    id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    type varchar(100) NOT NULL,
+    name varchar(100) NOT NULL
+);
