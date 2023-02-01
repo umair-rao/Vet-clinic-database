@@ -66,6 +66,7 @@ In order to run this project you need:
 
 ### Setup
 
+
 Clone this repository to your desired folder:
 ```sh
 cd [your-folder] https://github.com/umair-rao/Vet-clinic-database.git
@@ -129,6 +130,7 @@ If you like this project please give it a star
 - Project from Microverse Ruby, Databases & Interviewing Module.
 
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
@@ -144,9 +146,21 @@ If you like this project please give it a star
 
 <!-- LICENSE -->
 
+
+## ❓ FAQ <a name="faq"></a>
+
+
+- **[Can I Fork it and Imporove on it]**
+
+  - [Yes, You can, feel free]
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
