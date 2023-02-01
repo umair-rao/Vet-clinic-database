@@ -195,3 +195,15 @@ JOIN species ON animals.species_id=species.id
 WHERE visits.vets_id = (SELECT id FROM vets WHERE name = 'Maisy Smith') 
 GROUP BY species.name 
 ORDER BY COUNT(visits.animals_id) DESC LIMIT 1;
+
+
+explain analyze SELECT COUNT(*) FROM visits where animal_id = 4;
+
+SELECT COUNT(*) FROM visits where animal_id = 4;
+explain analyze SELECT * FROM visits where vet_id = 2;
+explain analyze SELECT * FROM owners where email = 'owner_18327@mail.com';
+
+--create the indexes to reduce the time
+CREATE INDEX animals_ids_asc ON visits( animal_id ASC);
+CREATE INDEX vets_ids_asc ON visits( vet_id ASC);
+CREATE INDEX emails_asc ON owner( email ASC);
